@@ -20,7 +20,7 @@ https://strivo-inky.vercel.app
 - Workout history and deletion
 - Responsive user interface
 
-## Jvascript Patterns
+## Javascript Patterns
 
 - Geolocation API and Asynchronous Callbacks
 - Array Methods (map, filter, find, forEach)
