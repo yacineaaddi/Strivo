@@ -1,79 +1,74 @@
-# 📦 Strivo App
+# Strivo
 
-A simple tracking app built with HTML, CSS, and JavaScript that tracks your workouts on an interactive map, recording key metrics like distance, duration, cadence, and elevation gain
+A tracking app that tracks workouts on an interactive map, recording key metrics like distance, duration, cadence, and elevation gain
 
-## 🔗 Demo
+## Links
 
-_A live demo link will be added here soon._
-www.strivoappproject.com
+https://strivo-inky.vercel.app
 
-## ✨ Features
+## Screenshots
 
-- Workout Tracking : Allows users to log workouts with details such as distance, duration, cadence, and elevation gain.
+![Alt Text](assets/strivo.jpg)
 
-- Interactive Map : Integrates a map interface to visualize workout routes.
+## Features
 
-- User Interface : Provides a user-friendly interface for inputting and viewing workout data.
+- Create and manage running, walking, and cycling workouts
+- Track distance, duration, pace, cadence, and elevation
+- Dynamic workout forms with activity-specific fields
+- Interactive map with workout location selection
+- Persistent data using Local Storage
+- Workout history and deletion
+- Responsive user interface
 
-## ⚙️ Installation
+## Jvascript Patterns
 
-1. Clone the repository:
+- Geolocation API and Asynchronous Callbacks
+- Array Methods (map, filter, find, forEach)
+- Object-Oriented Programming (ES6 Classes)
+- Class Inheritance and Method Overriding
+- Encapsulation with Private Class Fields
+- DOM Manipulation and Dynamic Rendering
+- Event Delegation and Event Binding
+- Data Serialization with JSON
 
-   ```bash
-   git clone https://github.com/yacineaaddi/JS-Strivo-App.git
-   ```
+## Technical Architecture
 
-2. Navigate to the project directory:
+- Centralized workout state management
+- Modular and reusable code structure
+- Separation of UI and business logic
+- Dynamic map markers and UI updates
+- Local Storage data persistence
 
-   ```bash
-   cd project-name
-   ```
+## Tech Stack
 
-3. Install dependencies:
+- Browser APIs: Geolocation API, Local Storage
+- APIMapping: Leaflet.js, OpenStreetMap
+- Markup & Styling: HTML5, CSS3
+- Version Control: Git & GitHub
+- Language: JavaScript (ES6+)
 
-   ```bash
-   npm install
-   ```
-
-4. Start the application:
-
-   ```bash
-   npm run dev
-   ```
-
-## 🛠️ Technologies Used
-
-- 💻 HTML : Structures the content of the web application.
-
-- 🎨 CSS: Styles the application for an appealing user interface.
-
-- ⚙️ JavaScript : Implements the core functionality, including workout tracking and map interactions.
-
-- 🌿 Leaflet.js : A JavaScript library for interactive maps, used to display workout routes.
-
-## 📁 Folder Structure
+## Folder Structure
 
 ```
-STRIVO/
-├── favicon/
-├── index.html
-├── LICENSE
+
+Strivo/
+│ ├── assets/
+│ └── favicon/
 ├── logo.png
+├── index.html
 ├── script.js
 ├── style.css
+├── LICENSE
 └── README.md
+
 ```
 
-## 🤝 Contributing
-
-Contributions are always welcome! Feel free to submit a Pull Request.
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 📬 Contact
+## Contact
 
-My Email - [yacineaaddi@gmail.com](yacineaaddi@gmail.com)
+Software Engineering Graduate · Frontend / Full-Stack Developer
 
-Project Link: [https://github.com/yacineaaddi/JS-Strivo-App](https://github.com/yacineaaddi/JS-Strivo-App)
+Yacine Aaddi - [yacineaaddi@gmail.com](mailto:yacineaaddi@gmail.com)
